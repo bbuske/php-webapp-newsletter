@@ -14,7 +14,7 @@
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 <?php
 // Connect to the database
-$dbc = mysqli_connect('localhost', 'bbuske', 'intrepid', 'elvis_store')
+$dbc = mysqli_connect('localhost', 'user', 'password', 'elvis_store')
 or die('Error connecting to MySQL server.');
 
 // Delete the customer rows (only if the form has been submitted)
