@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Customer Email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="image-container"><img src="img/elvislogo.gif" alt="Elvis Logo" id="elvislogo"></div>
+<h1>Send Customer Email</h1>
+<p>Insert a subject and the email body, you wish to send to your clients and click on submit, to send the email.</p>
+<img src="img/blankface.jpg" alt="" id="elvisface">
+<form action="sendemail.php" method="post">
+    <label for="subject">Subject:</label>
+    <input type="text" name="subject" id="subject" required>
+    <br><br>
+    <label for="elvismail">Email Body:</label>
+    <textarea name="elvismail" id="elvismail" cols="45" rows="20" required></textarea>
+    <br><br>
+    <button type="submit" id="submit">Send Email</button>
+</form>
+</body>
+</html>

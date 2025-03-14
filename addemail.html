@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="image-container"><img src="img/elvislogo.gif" alt="Elvis Logo" id="elvislogo"></div>
+<h1>Subscribe to Our Email List</h1>
+<p>Get the latest news and updates from our site. All you need to do, is enter your first name, last name and your
+email address, and you will receive latest news and updates. </p>
+<img src="img/blankface.jpg" alt="" id="elvisface">
+<form action="addemail.php" method="post">
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first_name" required>
+    <br><br>
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" id="last_name" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <button type="submit" id="submit">Subscribe</button>
+</form>
+</body>
+</html>
