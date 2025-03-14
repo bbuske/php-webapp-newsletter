@@ -39,7 +39,7 @@ else {
 }
 
 if ((!empty($subject)) && (!empty($text))) {
-    $dbc = mysqli_connect('data.makemeelvis.com', 'elmer', 'theking', 'elvis_store')
+    $dbc = mysqli_connect('data.makemeelvis.com', 'user', 'password', 'elvis_store')
     or die('Error connecting to MySQL server.');
 
     $query = "SELECT * FROM email_list";
